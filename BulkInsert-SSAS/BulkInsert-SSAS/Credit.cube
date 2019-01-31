@@ -1,0 +1,352 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3388100b-e8f7-470e-90ed-a3af04fcf3a7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Credit</ID>
+  <Name>Credit</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7207" scrolltop="4836" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="89" x="22913" y="10213" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="member" left="-5286" top="11375" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_member" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="payment" left="10262" top="8752" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3069" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000fd0b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_payment" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2586" top="9612" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="13148" height="2903" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[payment_member_link]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Oblique" sourceid="1" destid="2" sourceattachpoint="288" destattachpoint="58" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-2286" y="12115" />
+              <point x="-1786" y="12115" />
+              <point x="9762" y="9912" />
+              <point x="10262" y="9912" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="charge" left="-5596" top="5487" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4370" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000012110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_charge" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2896" top="6347" logicalid="9" controlid="6" masterid="0" hint1="0" hint2="0" width="1410" height="6168" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[charge_member_link]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Oblique" sourceid="1" destid="5" sourceattachpoint="288" destattachpoint="278" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-2286" y="12115" />
+              <point x="-1786" y="12115" />
+              <point x="-2096" y="6647" />
+              <point x="-2596" y="6647" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="category" left="6152" top="5577" logicalid="10" controlid="7" masterid="0" hint1="0" hint2="0" width="3181" height="2289" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800006d0c0000f1080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_category" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2896" top="5918" logicalid="11" controlid="8" masterid="0" hint1="0" hint2="0" width="9348" height="1869" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[charge_category_link]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Oblique" sourceid="7" destid="5" sourceattachpoint="37" destattachpoint="320" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6152" y="6317" />
+              <point x="5652" y="6317" />
+              <point x="-2096" y="7487" />
+              <point x="-2596" y="7487" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7207</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>4836</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-5596</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>5487</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>89</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="03ec29b0-6c19-43bd-b76b-90d42522c2a2">
+      <ID>Payment</ID>
+      <Name>Payment</Name>
+      <DimensionID>Payment</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1e2f6462-a22e-4b2f-84e8-016ddcce2572">
+          <AttributeID>Payment No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f53daa1a-d9f3-4753-9b40-e5b6723c743d">
+          <AttributeID>Member No</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="85202773-7ed7-404f-ae19-243fd9a2c7ae">
+      <ID>Member</ID>
+      <Name>Member</Name>
+      <DimensionID>Member</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="47df4fb3-a80d-4c9d-ba9d-eac2348f8e26">
+          <AttributeID>Member No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8a98f99-fb27-4762-9919-3bf525c690e2">
+          <AttributeID>Lastname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="28d02b6e-ec28-455c-9584-6ec8540af532">
+          <AttributeID>Firstname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f368cd2-3fdf-44ac-8677-3f5b557a23d0">
+          <AttributeID>Middleinitial</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7c300055-816d-4689-a7be-5acfb5d5f0c3">
+      <ID>Category</ID>
+      <Name>Category</Name>
+      <DimensionID>Category</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0469a52c-2620-40a1-916d-1bae265c1e50">
+          <AttributeID>Category No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="398de544-db5e-41c7-8871-c1828444a6a0">
+          <AttributeID>Category Desc</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9b96f4fe-aa0e-4cc6-9093-32eb7cef88d4">
+      <ID>Payment</ID>
+      <Name>Payment</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="dab9caa8-327f-4672-a6d5-b5ba7667d0ed">
+          <ID>Payment Amt</ID>
+          <Name>Payment Amt</Name>
+          <Source dwd:design-time-name="e8d28833-b3fb-441b-bfff-c0aa424dee0d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5cdc4420-a680-4caf-9d08-823cd615e576">
+              <TableID>dbo_payment</TableID>
+              <ColumnID>payment_amt</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="154057b1-2134-477a-8621-0f1d9dccc94e">
+          <ID>Payment Count</ID>
+          <Name>Payment Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1a980256-cc26-47fb-bba4-6e49c82358a0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="29554940-f17c-40c9-a446-6dfa25733502">
+              <TableID>dbo_payment</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="72785c36-0cd7-43ba-a00d-a32f1edbed92">
+          <CubeDimensionID>Payment</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="accb823f-57e1-4800-a9df-0777f547627d">
+              <AttributeID>Payment No</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b703a270-7aaf-4ffd-af7c-91cb7e607616">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1630fc7d-3ab5-45a5-b963-fb9cc66dcced">
+                    <TableID>dbo_payment</TableID>
+                    <ColumnID>payment_no</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d775049b-fb77-4d74-bf83-a1e4c04bc003">
+          <CubeDimensionID>Member</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="51c645a9-a4bf-4c9b-9458-fd4a16e16d19">
+              <AttributeID>Member No</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="440e7aed-abed-42b3-92cf-fab3e2cf25d8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="61844631-4da9-428e-bae0-0cc2966f8b9f">
+                    <TableID>dbo_payment</TableID>
+                    <ColumnID>member_no</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0145ac21-7406-441e-8c23-a5eaf952addb">
+      <ID>Charge</ID>
+      <Name>Charge</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1be87f3b-736d-45e3-8ce4-82054e92e6c8">
+          <ID>Charge Amt</ID>
+          <Name>Charge Amt</Name>
+          <Source dwd:design-time-name="12be9be2-ed70-420c-90e7-0212ec64a98e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="93e0518b-11b7-4851-b5ce-ef9b7444d320">
+              <TableID>dbo_charge</TableID>
+              <ColumnID>charge_amt</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aa24b6db-52d9-4acb-af5a-afc90a8947e4">
+          <CubeDimensionID>Member</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="beca26a6-f1c2-4825-af44-e3da19e1ddca">
+              <AttributeID>Member No</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="77a03106-c4a2-43d2-bbe6-c75ebc4f5a67">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0d04f07-6243-4422-bc6b-3f7caf036036">
+                    <TableID>dbo_charge</TableID>
+                    <ColumnID>member_no</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c94613e4-2561-4b6a-8a76-a48fa1ad9d17">
+          <CubeDimensionID>Category</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f72fc828-4561-4d23-b5b7-ce3fd351c319">
+              <AttributeID>Category No</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a5460257-5d57-465b-ae7c-f4ade0fd5124">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9495b36-48b7-45c5-9ff4-c68f1f74e922">
+                    <TableID>dbo_charge</TableID>
+                    <ColumnID>category_no</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d47a5078-669d-43bc-9f25-e28c80a92116">
+    <DataSourceViewID>Credit</DataSourceViewID>
+  </Source>
+</Cube>
