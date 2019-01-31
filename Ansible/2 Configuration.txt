@@ -1,0 +1,7 @@
+#Generate KeyPair
+ssh-keygen -b 4048 -t rsa -C "bitnami@172.26.14.106"
+#Eneter to Select Default location
+#Leave the pass phrase empty
+
+#Copy public key to remote node
+ssh-copy-id ubuntu@172.26.1.209

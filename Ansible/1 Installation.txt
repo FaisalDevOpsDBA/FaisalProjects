@@ -1,0 +1,25 @@
+#watch this video
+https://www.youtube.com/watch?v=NIEVaCBGOUc
+#Summary
+This How to install ansible on Ubuntu video shows you how to install the IT automation engine that is Ansible onto a Linux host, in this case Ubuntu 16.04 desktop. 
+
+Open a terminal and run the command:
+
+sudo apt-get update
+Then run the command
+
+sudo apt-get install software-properties-common
+Now the package is installed you can install Ansible by entering the following command.
+
+sudo apt-add-repository ppa:ansible/ansible
+You will need to press ENTER to accept the PPA addition.
+
+Next run the command
+
+sudo apt-get update
+Finally to install Ansible run the command
+
+sudo apt-get install ansible
+Ansible is now installed and can be verified with the command
+
+ansible --version
