@@ -1,0 +1,14 @@
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\bin\Debug\netcoreapp2.1\BackendApi.deps.json
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\bin\Debug\netcoreapp2.1\BackendApi.runtimeconfig.json
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\bin\Debug\netcoreapp2.1\BackendApi.runtimeconfig.dev.json
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\bin\Debug\netcoreapp2.1\BackendApi.dll
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.csprojAssemblyReference.cache
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.csproj.CoreCompileInputs.cache
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.RazorAssemblyInfo.cache
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.RazorAssemblyInfo.cs
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.AssemblyInfoInputs.cache
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.AssemblyInfo.cs
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.RazorTargetAssemblyInfo.cache
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\bin\Debug\netcoreapp2.1\BackendApi.pdb
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.dll
+G:\Faisal\FaisalProjects\BackendApi\BackendApi\obj\Debug\netcoreapp2.1\BackendApi.pdb

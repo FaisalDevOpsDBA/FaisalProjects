@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTransformationsUserConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>{E6AC7F4B-C3EB-43D5-B11E-71D3D634652C}</Id>
+            <Name>{E6AC7F4B-C3EB-43D5-B11E-71D3D634652C}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAq7HzP9+8XkGR5nwyadB5DwAAAABOAAAAewBFADYAQQBDADcARgA0AEIALQBDADMARQBCAC0ANAAzAEQANQAtAEIAMQAxAEUALQA3ADEARAAzAEQANgAzADQANgA1ADIAQwB9AAAAEGYAAAABAAAgAAAATIvUXkqyGmx/tgQz/GUBrrga5DuRoyz1cAk4fXAiAmUAAAAADoAAAAACAAAgAAAAGg38FiuhXd5BAmayiTM45/h1qoLQE+adPez5ABk88osQAAAAAEjOb61adW4v5HRYGrkyxkAAAACuLmMRUDJpB6BX6l8qHurAJszQUzOAxvaL/EPvohU1AlEfaCdXrfhZuG12Vqhv0Vym0gyclywJOSn/lIJ31jLT</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>{E6AC7F4B-C3EB-43D5-B11E-71D3D634652C}</Id>
+            <Name>{E6AC7F4B-C3EB-43D5-B11E-71D3D634652C}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAq7HzP9+8XkGR5nwyadB5DwAAAABOAAAAewBFADYAQQBDADcARgA0AEIALQBDADMARQBCAC0ANAAzAEQANQAtAEIAMQAxAEUALQA3ADEARAAzAEQANgAzADQANgA1ADIAQwB9AAAAEGYAAAABAAAgAAAA69zqLjTO+vNzR7xZb/arkG7Ox42TpjWRAQh7y7R0fK0AAAAADoAAAAACAAAgAAAADE7+NrIkIDty+pRBmo8xHY+PyGsLIxUQgLECp/UQI88gAAAAe1ek0sGl8z3QLOR3RK/Qrv7+u8EjGJDjI9diIjay4YFAAAAAgAqnJxhxm6R4TSFoj/EH09ooQ1p3ZN226fgbj1SVc4cESC+wbzW29AChLzJ2/sixtzIYLlAKjZofejC8mWD9Qw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+      </Options>
+    </Configuration>
+  </Configurations>
+</DataTransformationsUserConfiguration>

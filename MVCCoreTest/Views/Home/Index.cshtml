@@ -1,0 +1,47 @@
+﻿@model CoreBusinessObjectsTest.Fruit
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <h1>Index View</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="input-md" />
+                    <span asp-validation-for="Name"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label asp-for="Size"></label>
+                    <input asp-for="Size" class="input-md" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <label asp-for="Color"></label>
+                    <input asp-for="Color" class="input-md" />
+                    <span asp-validation-for="Color"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <input type="submit" asp-controller="Home" asp-action="SaveFruit" value="Save Fruit" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

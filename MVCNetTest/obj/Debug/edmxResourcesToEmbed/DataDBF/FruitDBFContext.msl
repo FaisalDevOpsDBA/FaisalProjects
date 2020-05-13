@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCNetTestDataFruitDBContextModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Fruits">
+      <EntityTypeMapping TypeName="MVCNetTest.Data.FruitDBContextModel.Fruit">
+        <MappingFragment StoreEntitySet="Fruits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FruitName" ColumnName="FruitName" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "JqueryTestIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .textBoxStyle {
+        background-color: green;
+        color: white;
+    }
+</style>
+<div id="resultDiv"></div>
+
+@section Scripts{
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var jsObject = {
+            'USA': 'Washington D.C.',
+            'India': 'New Delhi',
+            'UK': 'London',
+            'Australia': 'Canberra'
+        };
+
+        var result = '';
+
+        $.each(jsObject, function (key, value) {
+            result += key + ' - ' + value + '<br/>';
+        });
+
+        $('#resultDiv').html(result);
+    });
+</script>
+    }

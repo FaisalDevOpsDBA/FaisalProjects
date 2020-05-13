@@ -1,0 +1,12 @@
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.csprojAssemblyReference.cache
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.csproj.CoreCompileInputs.cache
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.AssemblyInfoInputs.cache
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.AssemblyInfo.cs
+G:\Faisal\FaisalProjects\CoreDataAccessTest\bin\Debug\netcoreapp2.1\CoreDataAccessTest.deps.json
+G:\Faisal\FaisalProjects\CoreDataAccessTest\bin\Debug\netcoreapp2.1\CoreDataAccessTest.dll
+G:\Faisal\FaisalProjects\CoreDataAccessTest\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Faisal\FaisalProjects\CoreDataAccessTest\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.csproj.CopyComplete
+G:\Faisal\FaisalProjects\CoreDataAccessTest\bin\Debug\netcoreapp2.1\CoreDataAccessTest.pdb
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.dll
+G:\Faisal\FaisalProjects\CoreDataAccessTest\obj\Debug\netcoreapp2.1\CoreDataAccessTest.pdb

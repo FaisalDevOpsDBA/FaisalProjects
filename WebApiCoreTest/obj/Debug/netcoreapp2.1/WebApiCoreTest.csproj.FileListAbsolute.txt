@@ -1,0 +1,14 @@
+G:\Faisal\FaisalProjects\WebApiCoreTest\bin\Debug\netcoreapp2.1\WebApiCoreTest.deps.json
+G:\Faisal\FaisalProjects\WebApiCoreTest\bin\Debug\netcoreapp2.1\WebApiCoreTest.runtimeconfig.json
+G:\Faisal\FaisalProjects\WebApiCoreTest\bin\Debug\netcoreapp2.1\WebApiCoreTest.runtimeconfig.dev.json
+G:\Faisal\FaisalProjects\WebApiCoreTest\bin\Debug\netcoreapp2.1\WebApiCoreTest.dll
+G:\Faisal\FaisalProjects\WebApiCoreTest\bin\Debug\netcoreapp2.1\WebApiCoreTest.pdb
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.csprojAssemblyReference.cache
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.csproj.CoreCompileInputs.cache
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.RazorAssemblyInfo.cache
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.RazorAssemblyInfo.cs
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.AssemblyInfoInputs.cache
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.AssemblyInfo.cs
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.RazorTargetAssemblyInfo.cache
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.dll
+G:\Faisal\FaisalProjects\WebApiCoreTest\obj\Debug\netcoreapp2.1\WebApiCoreTest.pdb

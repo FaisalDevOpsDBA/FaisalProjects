@@ -1,0 +1,15 @@
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfoInputs.cache
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfo.cs
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.dev.json
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cache
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cs
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
+G:\Faisal\FaisalProjects\BackendApi\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb

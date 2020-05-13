@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewData["Title"] = "BootstrapTestIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .customDiv {
+        /*margin: 3px;*/
+        min-height: 300px;
+        background-color: silver;
+        text-align: center;
+        font-size: large
+    }
+</style>
+<form class="form-horizontal">
+    <div class="form-group has-success">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Password</label>
+        <div class="col-xs-10">
+            <input type="password" id="txtStrongPassword" class="form-control"
+                   placeholder="Your password">
+            <span class="help-block">Strong Password</span>
+        </div>
+    </div>
+    <div class="form-group has-warning">
+        <label class="col-xs-2 control-label" for="txtWeakPassword">Password</label>
+        <div class="col-xs-10">
+            <input type="password" id="txtWeakPassword" class="form-control"
+                   placeholder="Your password">
+            <span class="help-block">Weak Password</span>
+        </div>
+    </div>
+    <div class="form-group has-error">
+        <label class="col-xs-2 control-label" for="txtAge">Age</label>
+        <div class="col-xs-10">
+            <input type="number" id="txtAge" class="form-control"
+                   placeholder="Your Age">
+            <span class="help-block">Invalid Age</span>
+        </div>
+    </div>
+</form>
+
+<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Password</label>
+        <div class="col-xs-10">
+            <input type="password" id="txtStrongPassword" class="form-control"
+                   placeholder="Your password">
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            <span class="help-block">Strong Password</span>
+        </div>
+    </div>
+    <div class="form-group has-warning has-feedback">
+        <label class="col-xs-2 control-label" for="txtWeakPassword">Password</label>
+        <div class="col-xs-10">
+            <input type="password" id="txtWeakPassword" class="form-control"
+                   placeholder="Your password">
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            <span class="help-block">Weak Password</span>
+        </div>
+    </div>
+    <div class="form-group has-error has-feedback">
+        <label class="col-xs-2 control-label" for="txtAge">Age</label>
+        <div class="col-xs-10">
+            <input type="number" id="txtAge" class="form-control"
+                   placeholder="Your Age">
+            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            <span class="help-block">Invalid Age</span>
+        </div>
+    </div>
+</form>
+
+<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                       placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            <span class="help-block">Success</span>
+        </div>
+    </div>
+    <div class="form-group has-warning has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                       placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            <span class="help-block">Warning</span>
+        </div>
+    </div>
+    <div class="form-group has-error has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                       placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            <span class="help-block">Error</span>
+        </div>
+    </div>
+</form>

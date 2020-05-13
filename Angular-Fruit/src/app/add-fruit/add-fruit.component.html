@@ -1,0 +1,27 @@
+
+<div class="container">
+  
+<div class="page-link text-right">Add Fruit</div>
+<span >{{addFruitError}}</span>
+  <div class="row mt-3">
+  <label for="txtId" class="col-1">Id</label>
+  <input type="text" id="txtId" class="col-1" [(ngModel)] = "fruit.id">
+  </div>
+  <div class="row mt-3">
+    <label for="txtFruit" class="col-1">Fruit</label>
+    <input type="text" id="txtFruit" class="col-1" [(ngModel)] = "fruit.fruit">
+    </div>
+    <div class="row mt-3">
+      <label for="txtSize" class="col-1">Size</label>
+      <input type="text" id="txtSize" class="col-1" [(ngModel)] = "fruit.size">
+      </div>
+      
+      <div class="row mt-3">
+        <label for="txtColor" class="col-1">Color</label>
+        <input type="text" id="txtColor" class="col-1" [(ngModel)] = "fruit.color">
+        </div>
+        <div class="row mt-3">
+          <input type="submit" id="btnSubmit" class="col-1" value="Save" (click) = "SaveFruit()">
+          </div>
+
+</div>

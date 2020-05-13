@@ -1,0 +1,22 @@
+<form>
+<a [routerLink] = "'/AddFruit'">Add Fruit</a>
+<div class="container">
+  Fruits List
+  <table class="table table-bordered table-striped table-hover">
+    <thead class="">
+    <th>Id</th>
+    <th>Fruit</th>
+    <th>Size</th>
+    <th>Color</th>
+  </thead>
+    <tbody>
+      <tr *ngFor="let f of fruitList;">
+        <td>{{f.id}}</td>
+        <td>{{f.fruit}}</td>
+        <td>{{f.size}}</td>
+        <td>{{f.color}}</td>
+      </tr>
+    </tbody>   
+  </table>  
+  
+</div>

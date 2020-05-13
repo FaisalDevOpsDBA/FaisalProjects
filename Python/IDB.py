@@ -1,0 +1,4 @@
+class IDB:
+    connect():
+    Query(): 
+    

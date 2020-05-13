@@ -1,9 +1,13 @@
 import os
 import sys
 import datetime
+import Validation
 from colorama import init,Fore
 
 init(convert=True)
+v = Validation.validation()
+v.CheckIndexExist(len(sys.argv),1,"Please pass folder path as first argument!")
+
 
 arglen = len(sys.argv)
 print(Fore.GREEN + "Then name of the file is:" + sys.argv[0])
