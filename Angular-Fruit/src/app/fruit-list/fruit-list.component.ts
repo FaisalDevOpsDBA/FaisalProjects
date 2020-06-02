@@ -23,9 +23,9 @@ export class FruitListComponent implements OnInit {
     // ;
   }
 
-  AddFruit()
+  DeleteFruit(fruitId)
   {
-    
+    this.fruitListService.DeleteFruit(fruitId);
   }
 
 }

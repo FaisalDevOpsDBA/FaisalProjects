@@ -5,31 +5,31 @@
 }
 
 <style>
-    .textBoxStyle {
-        background-color: green;
+    .ButtonStyle {
+        background-color: red;
+        cursor: pointer;
+        font-weight: bold;
         color: white;
     }
 </style>
-<div id="resultDiv"></div>
+<input id="btnAdd" type="button" value="Add a New List Item" />
+<ul>
+    <li>List Item</li>
+    <li>List Item</li>
+</ul>
+
 
 @section Scripts{
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        var jsObject = {
-            'USA': 'Washington D.C.',
-            'India': 'New Delhi',
-            'UK': 'London',
-            'Australia': 'Canberra'
-        };
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('ul').on('click', 'li', function () {
+                $(this).fadeOut(500);
+            });
 
-        var result = '';
-
-        $.each(jsObject, function (key, value) {
-            result += key + ' - ' + value + '<br/>';
+            $('#btnAdd').on('click', function () {
+                $('ul').append('<li>New List Item</li>');
+            });
         });
-
-        $('#resultDiv').html(result);
-    });
-</script>
-    }
+    </script>
+}

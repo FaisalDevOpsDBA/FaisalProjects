@@ -1,22 +1,33 @@
 <form>
-<a [routerLink] = "'/AddFruit'">Add Fruit</a>
-<div class="container">
-  Fruits List
-  <table class="table table-bordered table-striped table-hover">
-    <thead class="">
-    <th>Id</th>
-    <th>Fruit</th>
-    <th>Size</th>
-    <th>Color</th>
-  </thead>
-    <tbody>
-      <tr *ngFor="let f of fruitList;">
-        <td>{{f.id}}</td>
-        <td>{{f.fruit}}</td>
-        <td>{{f.size}}</td>
-        <td>{{f.color}}</td>
-      </tr>
-    </tbody>   
-  </table>  
-  
-</div>
+  <a [routerLink]="'/AddFruit'">Add Fruit</a>
+  <div class="container">
+    Fruits List
+    <table class="table table-bordered table-striped table-hover">
+      <thead>
+        <tr class="d-flex">
+          <th class="col-2">#</th>
+          <th class="col-2">Id</th>
+          <th class="col-2">Fruit</th>
+          <th class="col-2">Size</th>
+          <th class="col-2">Color</th>
+          <th class="col-1">Edit</th>
+          <th class="col-1">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="d-flex" *ngFor="let f of fruitList| paginate: { itemsPerPage: 10, currentPage: p }; let idx = index;">
+          <td class="col-2">{{idx + 1}}</td>
+          <td class="col-2">{{f.id}}</td>
+          <td class="col-2">{{f.fruit}}</td>
+          <td class="col-2">{{f.size}}</td>
+          <td class="col-2">{{f.color}}</td>
+          <td class="col-1"><Button id="btnEdit" class="btn btn-primary btn-block">Edit</Button></td>
+          <td class="col-1"><Button id="btnDelete" class="btn btn-primary btn-block" (click) = "DeleteFruit(f.id)">Delete</Button></td>
+        </tr>
+      </tbody>
+      <ul class="pagination">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </ul>
+    </table>
+
+  </div>

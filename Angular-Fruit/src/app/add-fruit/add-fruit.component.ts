@@ -12,26 +12,48 @@ import { AddFruitService } from '../Services/add-fruit.service';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AddFruitComponent implements OnInit {
-  fruit:Fruits = new Fruits();
-  fruitJson : string;
-  addFruitError :string = "";
-  constructor(private addFruitService : AddFruitService,private router: Router) { }
+  fruit: Fruits = new Fruits();
+  fruitJson: string;
+  addFruitError: string = "";
+  constructor(private addFruitService: AddFruitService, private router: Router) { }
 
   ngOnInit() {
   }
 
-  SaveFruit()
-  {
-this.fruitJson = JSON.stringify(this.fruit);
-this.addFruitService.SaveFruit(this.fruitJson).subscribe(
-  function(x) {},
-  function(err) {console.error('There was an error!', err);
-this.addFruitError = err;
+  SaveFruit() {
+    this.fruitJson = JSON.stringify(this.fruit);
+    this.addFruitService.SaveFruit(this.fruitJson).toPromise()
+    .then(() => {this.router.navigate(['/FruitList']);} )
+    
+    // .subscribe(
+    //   function (x) { },
+    //   function (err) {
+    //     console.error('There was an error!', err);
+    //     this.addFruitError = err;
+    //   },
+    //   function () {
+        
+    //   }
+    // );
+    
+  }
 
-},
-function(){} 
-);
-this.router.navigate(['/FruitList']);
+  GetNextId() {
+    this.fruitJson = JSON.stringify(this.fruit);
+    this.addFruitService.SaveFruit(this.fruitJson).toPromise()
+    .then(() => {this.router.navigate(['/FruitList']);} )
+    
+    // .subscribe(
+    //   function (x) { },
+    //   function (err) {
+    //     console.error('There was an error!', err);
+    //     this.addFruitError = err;
+    //   },
+    //   function () {
+        
+    //   }
+    // );
+    
   }
 
 }

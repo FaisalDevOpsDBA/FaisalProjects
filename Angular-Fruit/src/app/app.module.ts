@@ -11,6 +11,9 @@ import { FruitListService } from './services/fruit-list.service';
 import { AddFruitComponent } from './add-fruit/add-fruit.component';
 import { PageNotFoundComponent } from './others/page-not-found/page-not-found.component'
 
+import {NgxPaginationModule} from 'ngx-pagination';  
+import { Ng2SearchPipeModule } from 'ng2-search-filter';   
+
 @NgModule({
   declarations: [
     AppComponent,    
@@ -20,7 +23,9 @@ import { PageNotFoundComponent } from './others/page-not-found/page-not-found.co
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgxPaginationModule,
+    Ng2SearchPipeModule
   ],
   providers: [FruitListService],
   bootstrap: [AppComponent]

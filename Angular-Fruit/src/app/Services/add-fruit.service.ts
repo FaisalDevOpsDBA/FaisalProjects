@@ -31,4 +31,18 @@ export class AddFruitService {
    {
 return throwError('AN error Occurred!');
    }
+
+   DeleteFruit(fruitJson :string)   {
+    let headers = new HttpHeaders();
+    headers = headers.set('Content-Type', 'text/json');
+
+     return this.http.post<Fruits>("http://localhost:5000/api/values",fruitJson,{headers})
+     .pipe(map((response : Fruits) => {
+     return response;
+    }
+     ),
+     catchError(this.handleErrors)
+     )
+     ;
+   }
 }

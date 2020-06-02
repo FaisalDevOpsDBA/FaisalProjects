@@ -1,27 +1,27 @@
-
 <div class="container">
-  
-<div class="page-link text-right">Add Fruit</div>
-<span >{{addFruitError}}</span>
-  <div class="row mt-3">
-  <label for="txtId" class="col-1">Id</label>
-  <input type="text" id="txtId" class="col-1" [(ngModel)] = "fruit.id">
-  </div>
-  <div class="row mt-3">
-    <label for="txtFruit" class="col-1">Fruit</label>
-    <input type="text" id="txtFruit" class="col-1" [(ngModel)] = "fruit.fruit">
-    </div>
-    <div class="row mt-3">
-      <label for="txtSize" class="col-1">Size</label>
-      <input type="text" id="txtSize" class="col-1" [(ngModel)] = "fruit.size">
-      </div>
-      
-      <div class="row mt-3">
-        <label for="txtColor" class="col-1">Color</label>
-        <input type="text" id="txtColor" class="col-1" [(ngModel)] = "fruit.color">
-        </div>
-        <div class="row mt-3">
-          <input type="submit" id="btnSubmit" class="col-1" value="Save" (click) = "SaveFruit()">
-          </div>
 
-</div>
+  <div class="page-link text-right">Add Fruit</div>
+  <span>{{addFruitError}}</span>
+  <!-- <form> -->
+    <div class="form-group">  
+          <label for="txtId" class="">Id</label>
+    <input type="text" id="txtId" class="form-control" [(ngModel)]="fruit.id">
+  </div>
+
+    <div class="form-group">
+      <label for="txtFruit" class="">Fruit</label>
+      <input type="text" id="txtFruit" class="form-control" [(ngModel)]="fruit.fruit">
+    </div>
+    <div class="form-group">
+      <label for="txtSize" class="">Size</label>
+      <input type="text" id="txtSize" class="form-control" [(ngModel)]="fruit.size">
+    </div>
+
+    <div class="form-group">
+      <label for="txtColor" class="">Color</label>
+      <input type="text" id="txtColor" class="form-control" [(ngModel)]="fruit.color">
+    </div>
+    <div class="form-group">
+      <input type="submit" id="btnSubmit" class="form-control offset-sm-5 col-sm-1 btn-primary" value="Save" (click)="SaveFruit()">
+    </div>
+  <!-- </form> -->
